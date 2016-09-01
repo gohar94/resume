@@ -1,0 +1,138 @@
+%% The MIT License (MIT)
+%%
+%% Copyright (c) 2015 Daniil Belyakov
+%%
+%% Permission is hereby granted, free of charge, to any person obtaining a copy
+%% of this software and associated documentation files (the "Software"), to deal
+%% in the Software without restriction, including without limitation the rights
+%% to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+%% copies of the Software, and to permit persons to whom the Software is
+%% furnished to do so, subject to the following conditions:
+%%
+%% The above copyright notice and this permission notice shall be included in all
+%% copies or substantial portions of the Software.
+%%
+%% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+%% IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+%% FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+%% AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+%% LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+%% OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+%% SOFTWARE.
+
+% The font could be set to Windows-specific Calibri by using the 'calibri' option
+\documentclass[]{Gohar_CV_Jobs}
+
+% For mathematical symbols
+\usepackage{amsmath}
+
+% Set applicant's personal data for header
+\name{Gohar Irfan Chaudhry}
+\address{911 W Springfield Ave, \linebreak Apt 30 \linebreak Urbana, IL  (61801)}
+\contacts{(301) 701-1768 \linebreak goharirfan94@gmail.com \linebreak github.com/gohar94 }
+
+\begin{document}
+
+    % Print the header
+    \makeheader
+    
+    % Print the content
+    \begin{cvsection}{Employment}
+        \begin{cvsubsection}{Software Engineer, Intern}{Veriflow Systems}{March 2016 - Present}
+            Network Devices
+            \begin{itemize}
+                \item Worked on a \textit{Java} codebase to extract and parse data from a variety of network devices.
+                \item Implemented and tested various network topologies on \textit{GNS3} for collecting data.
+            \end{itemize}
+        \end{cvsubsection}
+        \begin{cvsubsection}{Software Engineer}{Hydra Consulting Solutions}{June 2015 - August 2015}
+            Mobile Application
+            \begin{itemize}
+                \item Developed an \textit{Android Application} for collecting geographical data using \textit{aWhere} API.
+                \item Implemented algorithms for predicting and visualizing agricultural-metrics to aid farmers.
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Technical Experience}
+        \begin{cvsubsection}{}{}{}
+            \begin{itemize}
+                \item \textbf{MegaVM - A Memory Enhancing Framework for Datacenters} (June 2015 - May 2016) 
+                    \begin{itemize}
+                        \item Enhanced the memory modules of \textit{Xen} and \textit{KVM (Linux Kernel)}. 
+                        \item Prototyped a scheme in which the Hypervisor dynamically shares memory among physical nodes.
+                    \end{itemize}
+                \item \textbf{OpenQueue - Dynamically Adjusting Buffer Sizes in OpenFlow Switches} (March 2015 - June 2015) 
+                    \begin{itemize}
+                        \item Used \textit{SDN (OpenFlow  Protocol)} to dynamically change buffer sizes in switches. 
+                        \item Implemented on the \textit{POX controller} driven by a \textit{Mininet OpenFlow} network using \textit{Open vSwitch}.
+                    \end{itemize}
+                \item \textbf{Characterizing Seller-Driven Black-Hat Marketplaces} (December 2014 - May 2015) 
+                    \begin{itemize}
+                        \item Scrapped hundreds of gigabytes of data from online marketplaces like \textit{SEOClerks}.
+                        \item Performed data analysis to identify groups of users involved in illegal activities and their demographics.
+                    \end{itemize}
+                \item \textbf{Towards Predictable and Resilient Datacenters} (May 2014 - February 2015) 
+                    \begin{itemize}
+                        \item Proposed a network topology and a resource management scheme to achieve better resilience properties. 
+                        \item Developed a high-performance flow-level simulator in \textit{C++} for modeling the proposal.
+                    \end{itemize}
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+    
+    \begin{cvsection}{Education}
+        \begin{cvsubsection}{}{}{}
+            \begin{itemize}
+                \item \textbf{University of Illinois at Urbana-Champaign} - \textit{MSc Computer Science} (August 2016 - May 2018)
+                    \begin{itemize}
+                        \item Research Assistant to Professor Matthew Caesar 
+                    \end{itemize}
+                \item \textbf{Lahore University of Management Sciences} - \textit{BSc Computer Science} (August 2012 - May 2016)
+                    \begin{itemize}
+                        \item SGPA: 3.77/4.00 – Dean’s Honor List 2014, 2015 – Position: Top 5 in a class of 62 students
+                    \end{itemize}
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+    
+    \begin{cvsection}{Additional Experience and Awards}
+        \begin{cvsubsection}{}{}{}  
+            \begin{itemize}
+                \item \textbf{Winner of Microsoft Azure Cloud Challenge} (May 2016)
+                    \begin{itemize}
+                        \item Developed an SMS Spam Detection application using the \textit{Azure Machine Learning} API.
+                    \end{itemize}
+                \item \textbf{iBridge Berlin} (May 2015) 
+                    \begin{itemize}
+                        \item Selected for a Technology Entrepreneurship conference held in Berlin by \textit{iBridges} and \textit{UC Berkeley}.
+                    \end{itemize}
+                \item \textbf{Teaching Assistant} (June 2014 - May 2016) 
+                    \begin{itemize}
+                        \item \textit{CS200} Intro to \textit{(C++)}, \textit{CS382} Net-Centric Computing \textit{(Java)}, \textit{CS473} Network Security \textit{(C/C++)}
+                    \end{itemize}
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+
+    \begin{cvsection}{Publication}
+        \begin{cvsubsection}{}{}{}  
+            \begin{itemize}
+                \item \textbf{MegaVM - A Memory Enhancing Framework for Datacenters} (March 2016) Rashid Tahir, \textbf{Gohar Irfan}, Bilal Bakht, Hashim Sharif, Fareed Zaffar, Matthew Caesar. \textit{Proceedings of the 13th \textbf{USENIX} Symposium on Networked Systems Design and Implementation \textbf{(NSDI ’16)}, Santa Clara, CA, USA}
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+    
+    \begin{cvsection}{Languages and Technologies}
+        \begin{cvsubsection}{}{}{}  
+            \begin{itemize}
+                \item C++, Java
+                \item GNS3, Xen, KVM, POX Controller
+            \end{itemize}
+        \end{cvsubsection}
+    \end{cvsection}
+    
+\end{document}
+
+
+
